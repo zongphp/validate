@@ -1,0 +1,22 @@
+{
+  "name": "zongphp/validate",
+  "description": "Validate组件提供了方便的验证机制，快速实现验证业务。",
+  "type": "project",
+  "keywords": [
+    "表单验证",
+    "validate"
+  ],
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0",
+    "zongphp/config": "~1.0",
+    "zongphp/session": "~1.0"
+  },
+  "autoload": {
+    "files": [],
+    "psr-4": {
+      "zongphp\\validate\\": "src"
+    }
+  }
+}
