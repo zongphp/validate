@@ -97,7 +97,7 @@ class Base extends VaAction {
 		//验证返回信息处理
 		if ( count( $errors ) > 0 ) {
 			if ( IS_AJAX ) {
-				$res = [ 'valid' => 0, 'message' => $errors ];
+				$res = [ 'code' => 0, 'msg' => $errors ];
 				die( json_encode( $res, JSON_UNESCAPED_UNICODE ) );
 			} else {
 				switch ( Config::get( 'validate.dispose' ) ) {
